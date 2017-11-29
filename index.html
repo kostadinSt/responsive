@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Theme Company Page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<nav class="navbar">
+    <div class="container">
+        <div class="navbar-header">
+         <button type="button" class="navbar-toggle" onclick="myFunction()" data-toggle="collapse" data-target="#myNavbar">
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+         </button>
+            <a class="navbar-brand"  a href="#">Logo</a>
+        </div>
+        <div class="navbar-collapse" id="myNavbar">
+            <ul class="nav">
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#pricing">PRICING</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+
+        </div>
+    </div>
+</nav>
+<div class="header">
+    <h1>Company</h1>
+    <p>We specialize in ......</p>
+    <form class="form-inline">
+        <div class="input-group">
+            <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+                <button type="button" class="btn">Subscribe</button>
+        </div>
+    </form>
+</div>
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-8">
+       <h2>About Company Page</h2>
+       <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Excepteur sint occaecat cupidatat non proident,
+           sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+       <button class="btn btn-default">Get in Touch</button>
+      </div>
+        <div class="col-sm-4">
+            <span class="glyphicon">
+                <img src="picture/signal-logo.ico">
+            </span>
+        </div>
+    </div>
+</div>
+<div class="container-fluid bg-grey">
+    <div class="row">
+        <div class="col-sm-4">
+            <span class="glyphicon">
+                <img src="picture/globe-logo.png">
+            </span>
+        </div>
+        <div class="col-sm-8">
+              <h2> Our Values</h2>
+              <h4><strong>MISSION:</strong>Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
+              <p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+    </div>
+</div>
+<script>
+    function myFunction() {
+        var x = document.getElementById('myNavbar');
+        if (x.style.display === 'none') {
+            x.style.display = 'block';
+        } else {
+            x.style.display = 'none';
+        }
+    }
+</script>
+</body>
+</html>
