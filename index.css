@@ -218,3 +218,13 @@ a {
     border-radius: 1px;
     margin: 5px;
 }
+@media (max-width: 768px) {
+    li{
+      float: none;
+    }
+    .nav{
+    display: block;
+    z-index: 1;
+
+    }
+}
